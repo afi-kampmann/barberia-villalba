@@ -167,14 +167,12 @@ export default function Home() {
       }`}>
         <div className="container flex items-center justify-between">
           <div className="flex items-center gap-3">
-            {/* Logo minimalista estilizado */}
-            <div className="w-10 h-10 border border-white flex items-center justify-center font-display font-black text-lg tracking-tighter">
-              BV
-            </div>
-            <div>
-              <span className="font-display font-black tracking-widest text-sm block">BARBERÍA</span>
-              <span className="text-[10px] tracking-[0.3em] text-white/50 block -mt-1">VILLALBA</span>
-            </div>
+            {/* Logo real de Barbería Villalba */}
+            <img 
+              src={assetsData.logo} 
+              alt="Barbería Villalba Logo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-8 text-xs tracking-widest uppercase font-medium">
@@ -587,8 +585,8 @@ export default function Home() {
                     <div>
                       <p className="text-[10px] tracking-widest text-white/40 uppercase font-bold mb-1">Dirección</p>
                       <p className="text-sm font-medium leading-relaxed">
-                        Avenida de Juan Carlos I, 39, <br />
-                        28400, Collado Villalba, Madrid
+                        Avenida Juan Carlos I, 39, <br />
+                        28400 Collado Villalba, Madrid
                       </p>
                     </div>
                   </div>
@@ -600,9 +598,10 @@ export default function Home() {
                     <div>
                       <p className="text-[10px] tracking-widest text-white/40 uppercase font-bold mb-1">Horario</p>
                       <p className="text-sm font-medium leading-relaxed">
-                        Lunes a Viernes: 10:00 - 20:30 <br />
-                        Sábados: 09:30 - 15:30 <br />
-                        Domingos: Cerrado
+                        Lunes, martes y miércoles: 10:00 - 21:30 <br />
+                        Jueves, viernes y sábado: 10:00 - 22:00 <br />
+                        Domingo: 10:00 - 16:00 <br />
+                        Festivos: Abierto
                       </p>
                     </div>
                   </div>
@@ -612,10 +611,10 @@ export default function Home() {
                       <Phone className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="text-[10px] tracking-widest text-white/40 uppercase font-bold mb-1">Reservas Telefónicas</p>
+                      <p className="text-[10px] tracking-widest text-white/40 uppercase font-bold mb-1">Teléfono & Correo</p>
                       <p className="text-sm font-medium leading-relaxed">
-                        Recomendamos reservar vía Booksy. <br />
-                        Para consultas: +34 910 123 456
+                        Teléfono: +34 919 281 164 <br />
+                        Email: Barbers.casablanca@gmail.com
                       </p>
                     </div>
                   </div>
@@ -640,7 +639,7 @@ export default function Home() {
             {/* Mapa interactivo a la derecha (ocupa 7 columnas) */}
             <div className="lg:col-span-7 h-[450px] border border-white/10 relative bg-zinc-900 overflow-hidden">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.674720935591!2d-4.00412492343118!3d40.63704944190875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd417409257a0767%3A0x7d8985175949a0bf!2sAv.%20de%20Juan%20Carlos%20I%2C%2039%2C%2028400%20Collado%20Villalba%2C%20Madrid!5e0!3m2!1ses!2ses!4v1716800000000!5m2!1ses!2ses" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.6747209355912!2d-3.8521!3d40.6370!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4173f5e5e5e5e5d%3A0x1234567890abcdef!2sAvenida%20Juan%20Carlos%20I%2C%2039%2C%2028400%20Collado%20Villalba%2C%20Madrid!5e0!3m2!1ses!2ses!4v1716800000000!5m2!1ses!2ses" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) grayscale(100%) contrast(120%)" }} 
