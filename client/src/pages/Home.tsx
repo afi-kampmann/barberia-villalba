@@ -773,7 +773,7 @@ export default function Home() {
                 <p className="text-xs text-white/40 uppercase tracking-widest font-bold mb-3">Síguenos en Redes</p>
                 <div className="flex gap-4">
                   <a 
-                    href="https://instagram.com" 
+                    href="https://www.instagram.com/barberia_moncloa/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="w-10 h-10 border border-white/10 flex items-center justify-center text-white/60 hover:text-white hover:border-white transition-premium"
