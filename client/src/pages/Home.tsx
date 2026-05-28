@@ -169,7 +169,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             {/* Logo real de Barbería Villalba */}
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663702189332/nPDgMf2BcYJKkgGowhPSLT/barberia_logo_2313acd7-XbdDFEbsukdsjrtR3CCg7R.png" 
+              src="/logo.png" 
               alt="Barbería Villalba Logo" 
               className="h-12 w-auto"
             />
@@ -461,7 +461,7 @@ export default function Home() {
               <div className="absolute -inset-2 border border-white/10 z-0 pointer-events-none" />
               <div className="relative z-10 border border-white/20 bg-zinc-900 overflow-hidden aspect-[9/16] max-h-[750px] mx-auto lg:mx-0">
                 <img 
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663702189332/nPDgMf2BcYJKkgGowhPSLT/team_afc4c39c-XbdDFEbsukdsjrtR3CCg7R.webp" 
+                  src="/team.webp" 
                   alt="Equipo de Barbería Villalba" 
                   className="w-full h-full object-cover filter grayscale contrast-110 hover:grayscale-0 hover:contrast-100 transition-all duration-700"
                 />
