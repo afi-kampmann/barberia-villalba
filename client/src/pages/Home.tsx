@@ -514,6 +514,154 @@ export default function Home() {
         </div>
       </section>
 
+      {/* TESTIMONIOS Y RESEÑAS */}
+      <section id="testimonios" className="py-24 border-t border-white/5 relative">
+        <div className="container">
+          <div className="text-center mb-16">
+            <span className="text-xs tracking-[0.3em] text-white/40 uppercase font-bold block mb-3">Lo que dicen nuestros clientes</span>
+            <h2 className="text-3xl sm:text-5xl font-display font-black leading-none mb-6">
+              RESEÑAS DE NUESTROS <br />CLIENTES SATISFECHOS
+            </h2>
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-white text-white" />
+                ))}
+              </div>
+              <span className="text-sm text-white/60 font-medium">4.9 de 5 (344 reseñas en Booksy)</span>
+            </div>
+          </div>
+
+          {/* Grid de testimonios */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {/* Testimonio 1 */}
+            <div className="border border-white/10 p-8 bg-zinc-900/50 hover:bg-zinc-900 transition-premium group">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-white text-white" />
+                ))}
+              </div>
+              <p className="text-sm text-white/70 leading-relaxed mb-6 italic">
+                "Me corté con Pablo y fue lo máximo, lo recomiendo"
+              </p>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-bold text-sm">Andrés</p>
+                  <p className="text-[10px] text-white/40 uppercase tracking-wider">Cliente Verificado</p>
+                </div>
+                <Check className="w-4 h-4 text-white/40" />
+              </div>
+            </div>
+
+            {/* Testimonio 2 */}
+            <div className="border border-white/10 p-8 bg-zinc-900/50 hover:bg-zinc-900 transition-premium group">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-white text-white" />
+                ))}
+              </div>
+              <p className="text-sm text-white/70 leading-relaxed mb-6 italic">
+                "Muy buen trato, grandes profesionales"
+              </p>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-bold text-sm">Rafael</p>
+                  <p className="text-[10px] text-white/40 uppercase tracking-wider">Cliente Verificado</p>
+                </div>
+                <Check className="w-4 h-4 text-white/40" />
+              </div>
+            </div>
+
+            {/* Testimonio 3 */}
+            <div className="border border-white/10 p-8 bg-zinc-900/50 hover:bg-zinc-900 transition-premium group">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-white text-white" />
+                ))}
+              </div>
+              <p className="text-sm text-white/70 leading-relaxed mb-6 italic">
+                "Muy buena atención y muy completa"
+              </p>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-bold text-sm">Abdessalam</p>
+                  <p className="text-[10px] text-white/40 uppercase tracking-wider">Cliente Verificado</p>
+                </div>
+                <Check className="w-4 h-4 text-white/40" />
+              </div>
+            </div>
+
+            {/* Testimonio 4 */}
+            <div className="border border-white/10 p-8 bg-zinc-900/50 hover:bg-zinc-900 transition-premium group">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-white text-white" />
+                ))}
+              </div>
+              <p className="text-sm text-white/70 leading-relaxed mb-6 italic">
+                "Buen servicio, buena atención, resultados buenos 👏"
+              </p>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-bold text-sm">Darickson</p>
+                  <p className="text-[10px] text-white/40 uppercase tracking-wider">Cliente Verificado</p>
+                </div>
+                <Check className="w-4 h-4 text-white/40" />
+              </div>
+            </div>
+
+            {/* Testimonio 5 */}
+            <div className="border border-white/10 p-8 bg-zinc-900/50 hover:bg-zinc-900 transition-premium group">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-white text-white" />
+                ))}
+              </div>
+              <p className="text-sm text-white/70 leading-relaxed mb-6 italic">
+                "Muy atento el barber"
+              </p>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-bold text-sm">Víctor</p>
+                  <p className="text-[10px] text-white/40 uppercase tracking-wider">Cliente Verificado</p>
+                </div>
+                <Check className="w-4 h-4 text-white/40" />
+              </div>
+            </div>
+
+            {/* Testimonio 6 */}
+            <div className="border border-white/10 p-8 bg-zinc-900/50 hover:bg-zinc-900 transition-premium group">
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-white text-white" />
+                ))}
+              </div>
+              <p className="text-sm text-white/70 leading-relaxed mb-6 italic">
+                "Un ambiente agradable 👏"
+              </p>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-bold text-sm">Kevin</p>
+                  <p className="text-[10px] text-white/40 uppercase tracking-wider">Cliente Verificado</p>
+                </div>
+                <Check className="w-4 h-4 text-white/40" />
+              </div>
+            </div>
+          </div>
+
+          {/* CTA a Booksy para ver todas las reseñas */}
+          <div className="text-center">
+            <p className="text-sm text-white/50 mb-6">Ver todas las reseñas y valoraciones en Booksy</p>
+            <Button 
+              onClick={() => window.open(booksyUrl, '_blank')}
+              className="bg-white text-black hover:bg-white/90 font-bold tracking-wider uppercase text-xs px-8 py-6"
+            >
+              Ver 344 Reseñas en Booksy
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* BOOKSY INTEGRATION / RESERVA DIRECTA */}
       <section className="py-24 border-t border-white/5 bg-zinc-950 relative">
         <div className="container max-w-4xl text-center">
