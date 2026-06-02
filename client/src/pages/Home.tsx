@@ -199,7 +199,7 @@ export default function Home() {
         {/* Fondo con imagen de barbería premium y overlay oscuro */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/hero-bg.png" 
+            src="/hero-bg.webp" 
             alt="Barbería Villalba Interior" 
             className="w-full h-full object-cover opacity-90"
           />
