@@ -199,11 +199,11 @@ export default function Home() {
         {/* Fondo con imagen de barbería premium y overlay oscuro */}
         <div className="absolute inset-0 z-0">
           <img 
-            src={assetsData.hero_barber} 
+            src="/hero-bg.png" 
             alt="Barbería Villalba Interior" 
-            className="w-full h-full object-cover opacity-35 filter grayscale contrast-125"
+            className="w-full h-full object-cover opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black" />
         </div>
 
