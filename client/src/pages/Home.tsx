@@ -199,8 +199,8 @@ export default function Home() {
         {/* Fondo con imagen de barbería premium y overlay oscuro */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/hero-bg.webp" 
-            alt="Barbería Villalba Interior" 
+            src="/hero-bg.png" 
+            alt="Barbería Villalba en Collado Villalba - Peluquería Premium con Retroiluminación Hexagonal" 
             className="w-full h-full object-cover opacity-90"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
@@ -214,8 +214,8 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-display font-black tracking-tight leading-none mb-6">
-            MÁS QUE UN <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white/80 to-white/40">CORTE DE PELO</span>
+            BARBERÍA VILLALBA: <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white/80 to-white/40">MÁS QUE UN CORTE DE PELO</span>
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg text-white/60 font-light max-w-2xl leading-relaxed mb-10 uppercase tracking-wider">
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="lg:col-span-5">
               <span className="text-xs tracking-[0.3em] text-white/40 uppercase font-bold block mb-3">El Concepto</span>
               <h2 className="text-3xl sm:text-5xl font-display font-black leading-none mb-6">
-                BIENVENIDO AL <br />URBAN CLUB
+                PELUQUERÍA VILLALBA:<br />URBAN CLUB DE WELLNESS
               </h2>
               <p className="text-sm text-white/60 leading-relaxed mb-6">
                 Barbería Villalba no es simplemente un lugar para cortarse el pelo o arreglarse la barba. Hemos diseñado un refugio urbano donde la estética impecable se encuentra con el bienestar y el entretenimiento masculino.
@@ -328,9 +328,9 @@ export default function Home() {
         <div className="container max-w-5xl">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs tracking-[0.3em] text-white/40 uppercase font-bold block mb-3">Nuestra Carta</span>
-            <h2 className="text-3xl sm:text-5xl font-display font-black mb-4">SERVICIOS & TARIFAS</h2>
+            <h2 className="text-3xl sm:text-5xl font-display font-black mb-4">SERVICIOS DE PELUQUERÍA EN VILLALBA</h2>
             <p className="text-xs sm:text-sm text-white/50 uppercase tracking-widest">
-              Selecciona una categoría para ver los precios y tiempos. Todas las reservas se gestionan a través de Booksy.
+              Cortes de pelo, barbas y combos premium. Reserva tu cita en Barbería Villalba a través de Booksy.
             </p>
           </div>
 
@@ -421,7 +421,7 @@ export default function Home() {
                 <div className="aspect-square relative overflow-hidden">
                   <img 
                     src={amenity.image} 
-                    alt={amenity.name} 
+                    alt={`${amenity.name} - Barbería Villalba Collado Villalba`} 
                     className="w-full h-full object-cover filter grayscale contrast-115 transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0 group-hover:contrast-100"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
@@ -462,7 +462,7 @@ export default function Home() {
               <div className="relative z-10 border border-white/20 bg-zinc-900 overflow-hidden aspect-[9/16] max-h-[750px] mx-auto lg:mx-0">
                 <img 
                   src="/team.webp" 
-                  alt="Equipo de Barbería Villalba" 
+                  alt="Equipo profesional de Barbería Villalba - Peluquería en Collado Villalba" 
                   className="w-full h-full object-cover filter grayscale contrast-110 hover:grayscale-0 hover:contrast-100 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
@@ -722,7 +722,7 @@ export default function Home() {
               <div>
                 <span className="text-xs tracking-[0.3em] text-white/40 uppercase font-bold block mb-3">Ubicación & Contacto</span>
                 <h2 className="text-3xl sm:text-5xl font-display font-black leading-none mb-8">
-                  ¿DÓNDE <br />ENCONTRARNOS?
+                  BARBERÍA VILLALBA<br />EN COLLADO VILLALBA
                 </h2>
 
                 <div className="space-y-6">

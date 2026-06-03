@@ -1,0 +1,24 @@
+# Robots.txt para Barbería Villalba
+# Permite a todos los buscadores indexar el sitio
+
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+
+# Sitemap
+Sitemap: https://www.barberiavillalba.com/sitemap.xml
+
+# Crawl delay (opcional, para no sobrecargar el servidor)
+Crawl-delay: 1
+
+# Reglas específicas para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Reglas específicas para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
