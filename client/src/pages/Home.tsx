@@ -544,6 +544,21 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Imagen 2 */}
+            <div className="relative group overflow-hidden border border-white/10 aspect-[3/4] bg-zinc-900">
+              <img 
+                src="/gallery-2.webp" 
+                alt="Corte con barba - Barbería Villalba" 
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <p className="text-xs tracking-[0.2em] text-white/60 uppercase font-bold mb-1">Corte + Barba</p>
+                  <p className="text-sm font-bold">Estilo Clásico</p>
+                </div>
+              </div>
+            </div>
+
             {/* Placeholder para más imágenes */}
             <div className="relative group overflow-hidden border border-white/10 aspect-[3/4] bg-zinc-900 flex items-center justify-center">
               <div className="text-center">
