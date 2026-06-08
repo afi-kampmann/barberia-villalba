@@ -514,6 +514,54 @@ export default function Home() {
         </div>
       </section>
 
+      {/* GALERÍA DE TRABAJOS */}
+      <section id="galeria" className="py-24 border-t border-white/5 relative">
+        <div className="container">
+          <div className="text-center mb-16">
+            <span className="text-xs tracking-[0.3em] text-white/40 uppercase font-bold block mb-3">Nuestros Trabajos</span>
+            <h2 className="text-3xl sm:text-5xl font-display font-black leading-none mb-6">
+              GALERÍA DE ESTILOS
+            </h2>
+            <p className="text-sm text-white/60 max-w-2xl mx-auto">
+              Descubre los cortes y barbas que realizamos en Barbería Villalba. Cada trabajo es una obra de precisión y estilo.
+            </p>
+          </div>
+
+          {/* Grid de galería */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Imagen 1 */}
+            <div className="relative group overflow-hidden border border-white/10 aspect-[3/4] bg-zinc-900">
+              <img 
+                src="/gallery-1.webp" 
+                alt="Corte de pelo moderno - Barbería Villalba" 
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <p className="text-xs tracking-[0.2em] text-white/60 uppercase font-bold mb-1">Corte Premium</p>
+                  <p className="text-sm font-bold">Degradado Moderno</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Placeholder para más imágenes */}
+            <div className="relative group overflow-hidden border border-white/10 aspect-[3/4] bg-zinc-900 flex items-center justify-center">
+              <div className="text-center">
+                <p className="text-xs tracking-[0.2em] text-white/40 uppercase font-bold mb-2">Próximas imágenes</p>
+                <p className="text-sm text-white/60">Envía más fotos</p>
+              </div>
+            </div>
+
+            <div className="relative group overflow-hidden border border-white/10 aspect-[3/4] bg-zinc-900 flex items-center justify-center">
+              <div className="text-center">
+                <p className="text-xs tracking-[0.2em] text-white/40 uppercase font-bold mb-2">Próximas imágenes</p>
+                <p className="text-sm text-white/60">Envía más fotos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* TESTIMONIOS Y RESEÑAS */}
       <section id="testimonios" className="py-24 border-t border-white/5 relative">
         <div className="container">
