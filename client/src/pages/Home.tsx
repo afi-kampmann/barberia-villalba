@@ -169,7 +169,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             {/* Logo real de Barbería Villalba */}
             <img 
-              src="/logo.png" 
+              src="/logo.webp" 
               alt="Barbería Villalba Logo" 
               className="h-12 w-auto"
             />
@@ -295,7 +295,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold mb-3">Servicio de Cortesía</h3>
                 <p className="text-xs text-white/50 leading-relaxed">
-                  Disfruta de café de especialidad, refrescos o agua de forma totalmente gratuita mientras realizamos tu servicio o durante tu tiempo de relax.
+                  Disfruta de café de especialidad, refrescos o agua mientras realizamos tu servicio o durante tu tiempo de relax. Están disponibles en nuestro mostrador.
                 </p>
               </div>
 
@@ -407,7 +407,7 @@ export default function Home() {
             <span className="text-xs tracking-[0.3em] text-white/40 uppercase font-bold block mb-3">El Valor Añadido</span>
             <h2 className="text-3xl sm:text-5xl font-display font-black mb-4">WELLNESS LOUNGE</h2>
             <p className="text-xs sm:text-sm text-white/50 uppercase tracking-widest">
-              Un auténtico club urbano para caballeros donde el relax está garantizado y es 100% gratuito.
+              Un auténtico club urbano para caballeros donde el relax está garantizado. Disfruta de café, refrescos, PS5 y futbolín.
             </p>
           </div>
 
