@@ -589,13 +589,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Placeholder para más imágenes */}
-            <div className="relative group overflow-hidden border border-white/10 aspect-[3/4] bg-zinc-900 flex items-center justify-center">
-              <div className="text-center">
-                <p className="text-xs tracking-[0.2em] text-white/40 uppercase font-bold mb-2">Próximas imágenes</p>
-                <p className="text-sm text-white/60">Envía más fotos</p>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
